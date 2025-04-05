@@ -1,0 +1,89 @@
+1. Personal Expense Tracker
+Description:
+A Python console app to manage your daily expenses.
+
+Table: expenses
+Fields:
+- id (INTEGER, PRIMARY KEY, AUTOINCREMENT)
+- date (TEXT, format: YYYY-MM-DD)
+- category (TEXT)
+- amount (REAL)
+- description (TEXT)
+
+Features:
+- Add, view, update, delete expenses
+- Filter by date/category
+- Show total spending
+
+
+2. Simple Task Manager
+Description:
+Track your personal or work tasks.
+
+Table: tasks
+Fields:
+- id (INTEGER, PRIMARY KEY, AUTOINCREMENT)
+- title (TEXT)
+- description (TEXT)
+- due_date (TEXT)
+- status (TEXT: Pending/Done)
+
+Features:
+- Add, update, delete tasks
+- Mark tasks as done or pending
+- View tasks by status or due date
+
+
+3. Book Library (Single Table)
+Description:
+A mini system to manage books in your personal library.
+
+Table: books
+Fields:
+- id (INTEGER, PRIMARY KEY, AUTOINCREMENT)
+- title (TEXT)
+- author (TEXT)
+- genre (TEXT)
+- year_published (INTEGER)
+- status (TEXT: Available/Borrowed)
+
+Features:
+- Add, edit, delete books
+- Mark books as borrowed or available
+- Search by title or author
+
+
+4. Student Grade Recorder
+Description:
+Store and review student grades for different subjects.
+
+Table: grades
+Fields:
+- id (INTEGER, PRIMARY KEY, AUTOINCREMENT)
+- student_name (TEXT)
+- subject (TEXT)
+- score (REAL)
+- grade (TEXT: A/B/C/etc.)
+
+Features:
+- Add and update grades
+- Calculate average score
+- View top-performing students
+
+
+5. Movie Watchlist
+Description:
+Keep track of movies you’ve watched or want to watch.
+
+Table: movies
+Fields:
+- id (INTEGER, PRIMARY KEY, AUTOINCREMENT)
+- title (TEXT)
+- genre (TEXT)
+- release_year (INTEGER)
+- watched (BOOLEAN or TEXT: Yes/No)
+
+Features:
+- Add, delete, update movies
+- Mark as watched/unwatched
+- Filter by genre or release year
